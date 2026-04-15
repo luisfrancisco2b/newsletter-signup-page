@@ -1,0 +1,124 @@
+/* Tema claro / escuro */
+/* :root é um seletor especial do CCS que representa 
+o elemento raiz do documento (<html>)*/
+:root {
+  --bg: #fff;
+  --texto: #111;
+  --borda: #e5e7eb;
+  --caixa: #f8fafc;
+  --acao: #2563eb;
+}
+
+/* Atributo do tema escuro */
+[data-tema="escuro"] {
+  --bg: #0b1220;
+  --texto: #e5e7eb;
+  --borda: #1f2937;
+  --caixa: #111827;
+  --acao: #38bdf8;
+}
+
+/* Estilos padrões */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--bg);
+  color: var(--texto);
+}
+
+/* <!-- 1 - Topo --> */
+.topo {
+  border-bottom: 1px solid var(--borda);
+}
+
+.topo .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.75rem 1rem;
+}
+
+/* <!-- 2 - Contéudo Principal --> */
+.caixa {
+  border: 1px solid var(--borda);
+  background-color: var(--caixa);
+  border-radius: 0.5rem;
+  padding: 2rem 1rem;
+  max-width: 80%;
+  margin: 1.5rem auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin: 1rem 0;
+}
+
+form {
+  display: grid;
+  gap: 0.5rem;
+}
+
+label {
+  font-weight: 600;
+}
+
+input {
+  padding: 0.7rem 0.9rem;
+  border: var(--borda);
+  border-radius: 0.5rem;
+  color: var(--texto);
+  background-color: var(--bg);
+}
+
+.btn {
+  padding: 0.6rem 0.9rem;
+  color: var(--texto);
+  background-color: var(--bg);
+  border: 1px solid var(--borda);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  max-width: 200px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background-color: var(--texto);
+  color: var(--bg);
+  transform: scale(1.1);
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+.btn-primario {
+  margin-top: 1.5rem;
+  background-color: var(--acao);
+  color: #fff;
+}
+
+/* <!-- 3 - rodapé --> */
+.rodape {
+  border-top: 1px solid var(--borda);
+  height: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6b7280;
+  margin-top: auto;
+}
