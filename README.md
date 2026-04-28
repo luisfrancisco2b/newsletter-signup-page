@@ -1,31 +1,31 @@
-# Newsletter com Tema Claro/Escuro
+# 📩 Newsletter Signup Page (Light/Dark Mode)
 
-Projeto de uma página de inscrição em uma newsletter com alternância de tema (light/dark mode), desenvolvido para praticar HTML, CSS e JavaScript.
+Front-End project of a newsletter signup page with light and dark mode toggle, developed to practice HTML, CSS and JavaScript.
 
-## Preview do projeto
+## 📸 Project Preview
 
-### Tema Claro
+### Light Mode
 ![Preview Light](img/preview-light.png)
 
-### Tema Escuro
+### Dark Mode
 ![Preview Dark](img/preview-dark.png)
 
-## Tecnologias Utilizadas
+## 🛠️ Technologies
 
 - HTML
 - CSS
 - JavaScript
 
-## Funcionalidades
+## ⚙️ Features
 
-- Alternância entre tema claro e escuro
-- Formulário de inscrição (nome e email)
-- Interface reponsiva e moderna
+- Light/Dark mode toggle  
+- Newsletter signup form (name and email)  
+- Responsive and modern interface  
 
-## Objetivo do projeto
+## 🎯 Project Goal
 
-Praticar manipulação do DOM, eventos em JavaScript e estilização com temas dinâmicos.
+Practice DOM manipulation, event handling in JavaScript and styling with dynamic themes.
 
-## Autor
+## 👨‍💻 Author
 
-Luis Francisco 
+Luis Francisco
